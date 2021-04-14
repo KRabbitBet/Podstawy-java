@@ -19,7 +19,7 @@ public class Calculator {
     }
 
     public int sum() {
-        return a + a;
+        return a + b;
     }
 
     public int subtraction() {
@@ -35,9 +35,11 @@ public class Calculator {
         return a * b;
     }
 
-    public double division() {
-        double result;
-        result = a / b;
-        return result;
+    public int division() {
+        return a/b;
+    }
+
+    public int modulo() {
+        return a%b;
     }
 }

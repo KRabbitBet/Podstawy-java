@@ -16,5 +16,6 @@ public class Main {
         System.out.println(c1.subtraction());
         System.out.println(c1.multiplication());
         System.out.println(c1.division());
+        System.out.println(c1.modulo());
     }
 }
